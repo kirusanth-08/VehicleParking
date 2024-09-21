@@ -1,0 +1,25 @@
+.parking-lot {
+    text-align: center;
+}
+
+.slots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+.slot {
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.slot.available {
+    background-color: #d4edda;
+}
+
+.slot.occupied {
+    background-color: #f8d7da;
+    cursor: not-allowed;
+}

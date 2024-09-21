@@ -1,8 +1,10 @@
+import ParkingLot from "./components/ParkingLot"
+
 function App() {
 
   return (
     <div className="font-extrabold">
-      App
+      <ParkingLot />
     </div>
   )
 }
